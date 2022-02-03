@@ -1,0 +1,261 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.continer{
+    width: 85%;
+    margin: 0 auto;
+}
+.logo{
+    float: left;
+    width: 10%;
+}
+.logo h1{
+    font-size: 25px;
+    color: #333;
+    padding-top: 3px;
+}
+.menu{
+    float: left;
+    width: 70%;
+    margin-left: 10px;
+}
+.menu ul li{
+    display: inline-block;
+    color: #777;
+    padding: 10px;
+    font-size: 18px;
+}
+#header{
+    padding-top: 5px;
+    height: 50px;
+}
+span{
+    background-color: #a000a0;
+    padding: 2px 3px;
+    border-radius: 5px;
+    color: white;
+}
+.getBtn{
+    float: right;
+    font-size: 18px;
+    padding: 8px 10px;
+    color: #03a87c;
+    background-color: white;
+    border: 0.5px solid #03a87c;
+    border-radius: 5px;
+}
+.getBtn:hover{
+    background-color: #03a87c;
+    color: white;
+    cursor: pointer;
+    transition: all .5s ease;
+}
+.baner-info, .baner-img{
+    float: left;
+    width: 50%;
+    
+}
+.baner-img img{
+    width: 100%;
+    height: 80vh;
+}
+.baner-info{
+    background-color: #b9ccc1;
+    height: 80vh;
+}
+.baner-info h2{
+    margin-left: 40px;
+    margin-top: 100px;
+    font-size: 40px;
+}
+.baner-info p{
+    margin-left: 40px;
+    padding:20px 0 ;
+    line-height: 30px;
+    padding-right: 30px;
+    font-size: 18px;
+    color: #333;
+}
+.readMore{
+    margin-left: 40px;
+    padding: 10px 10px;
+    font-size: 18px;
+    background-color: #222;
+    border: 0;
+    border-radius: 5px;
+    color: white;
+}
+.readMore:hover{
+    background-color: black;
+    transition: all .5 ease;
+    cursor: pointer;
+}
+.clr{
+    clear: both;
+}
+.brand-left{
+    float: left;
+    width: 50%;
+
+}
+.breand-right{
+    float: left;
+    width: 50%;
+}
+.imge{
+    background-image: url(./13.jpg);
+    height: 150px;
+    width: 95%;
+    background-size: cover;
+}
+.brand-left h1{
+    color: #222;
+    padding: 20px 0;
+    font-size: 25px;
+}
+.brand-left p{
+    color: #444;
+    line-height: 25px;
+    font-size: 18px;
+    padding-bottom: 15px;
+}
+.brand-left h5{
+    color: #777;
+    font-size: 15px;
+    line-height: 20px;
+}
+#brand{
+    margin-top: 40px;
+}
+.maps-left{
+    float: left;
+    width: 15%;
+}
+.maps-right{
+    float: left;
+    width: 72%;
+}
+.maps-left img{
+    width: 100%;
+}
+.maps-right h3{
+    padding-left: 15px;
+}
+.maps-right p{
+    padding-top: 12px;
+    padding-left:15px ;
+    line-height: 22px;
+    color: #777;
+}
+.coral{
+    float: left;
+    width: 70%;
+}
+.populer{
+    float: left;
+    width: 30%;
+}
+.all{
+    border-bottom: 1px solid #777 ;
+    margin: 50px 0px;
+}
+.all h1{
+    border-bottom: 1px solid #333;
+    width: 120px;
+    font-size: 25px;
+    padding-bottom: 20px;
+}
+.ocean-text{
+    float: left;
+    width: 75%;
+
+}
+.ocean-img{
+    float: left;
+    width: 20%;
+
+}
+.ocean-img img{
+    width: 100%;
+}
+.ocean-text h2{
+    line-height: 30px;
+    font-size: 27px;
+    color: #222;
+    padding-right: 5px;
+}
+.ocean-text p{
+    color: #555;
+    font-size: 17px;
+    padding: 10px 0;
+}
+.ocean-text h4{
+    color: #777;
+    line-height: 30px;
+    font-size: 15px;
+}
+.pop{
+    border-bottom: 1px solid #777 ;
+    margin: 50px 0px;
+}
+.pop h1{
+    border-bottom: 1px solid #333;
+    width: 90px;
+    font-size: 25px;
+    padding-bottom: 20px;
+}
+.coral{
+    padding-right: 20px;
+}
+.super-left{
+    float: left;
+    width: 15%;
+    font-size: 55px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.super-right{
+    float: right;
+    width: 80%;
+}
+.super-right h2{
+    color: #444;
+    line-height: 25px;
+    font-size: 20px;
+}
+.super-right p{
+    color: #777;
+    padding: 10px 0;
+    font-size: 15px;
+}
+#super{
+    margin: 20px 0;
+}
+.left-text{
+    float: left;
+    width: 40%;
+}
+.left-text h1{
+    display: inline-block;
+    color: #333;
+    font-size: 25px;
+}
+footer{
+    border-top: 1px solid #777;
+    padding: 25px 0;
+    margin: 30px 0;
+}
+footer p{
+    display: inline-block;
+}
+.right-text{
+    float: right;
+    width: 30%;
+}
+.right-text a{
+    font-size: 15px;
+    color: #a000a0;
+    font-family: Arial, Helvetica, sans-serif;
+
+}
